@@ -9,6 +9,10 @@ Welcome to my 100 Days of Code journey! I'm committing to learning, building, an
 
 ## 📅 Progress
 
-- **Day 1:** Started with basic Python practice and created the repo.
+## Day 1 - Band Name Generator 🎸  
+A fun little program that asks for the user's city and favorite pet, then combines them to suggest a creative band name.
+
+## Day 2 - Tip Calculator 💰  
+A simple calculator that helps split a restaurant bill among multiple people, including tip percentage, and calculates how much each person should pay.
 
 Stay tuned for daily updates! 🔥
