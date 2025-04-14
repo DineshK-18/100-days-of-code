@@ -19,4 +19,9 @@ A text-based adventure game where the player navigates through choices to find a
 
 ---
 
+## Day 4 - Rock, Paper, Scissors Game ✊📄✂️  
+A classic Rock-Paper-Scissors game where the user plays against the computer. Includes ASCII art for each move, random choice generation, and simple game logic to decide the winner.
+
+---
+
 Stay tuned for more daily projects! 🚀
