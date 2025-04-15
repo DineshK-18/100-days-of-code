@@ -19,8 +19,13 @@ A text-based adventure game where the player navigates through choices to find a
 
 ---
 
-## Day 4 - Rock, Paper, Scissors Game ✊📄✂️  
-A classic Rock-Paper-Scissors game where the user plays against the computer. Includes ASCII art for each move, random choice generation, and simple game logic to decide the winner.
+## Day 4 - Rock Paper Scissors Game ✊📄✂️  
+A classic rock-paper-scissors game where the user plays against the computer. It randomly generates choices and determines the winner based on game rules, using fun ASCII visuals.
+
+---
+
+## Day 5 - Password Generator 🔐  
+A customizable password generator that lets users choose how many letters, numbers, and symbols they want. The program randomly selects characters from each category, shuffles the result for extra security, and generates a strong password.
 
 ---
 
