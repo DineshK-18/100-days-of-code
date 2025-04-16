@@ -19,13 +19,32 @@ A text-based adventure game where the player navigates through choices to find a
 
 ---
 
-## Day 4 - Rock Paper Scissors Game ✊📄✂️  
-A classic rock-paper-scissors game where the user plays against the computer. It randomly generates choices and determines the winner based on game rules, using fun ASCII visuals.
+## Day 4 - Rock Paper Scissors Game ✊🖐️✌️  
+A Python implementation of the classic Rock-Paper-Scissors game where the user plays against the computer. It uses ASCII art to make it visually fun and adds logic to determine the winner.
 
 ---
 
 ## Day 5 - Password Generator 🔐  
-A customizable password generator that lets users choose how many letters, numbers, and symbols they want. The program randomly selects characters from each category, shuffles the result for extra security, and generates a strong password.
+A customizable password generator that allows the user to specify how many letters, numbers, and symbols to include. It randomizes the order and prints the final password.
+
+---
+
+## Day 6 - Reeborg's World & Functions 🤖  
+**Topics Covered:**  
+- Python functions (`def`)  
+- Loops with conditionals  
+- Solving maze in Reeborg’s World  
+
+**What I Did:**  
+- Created `turn_right()` and `jump()` functions  
+- Used loops and if-else to guide the robot through a maze  
+
+**What I Learned:**  
+- Importance of reusable functions  
+- Better logic building using conditions and loops  
+
+**Screenshots:**  
+Included 5 screenshots showing code and final output in Reeborg’s World
 
 ---
 
