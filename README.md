@@ -48,4 +48,9 @@ Included 5 screenshots showing code and final output in Reeborg’s World
 
 ---
 
+## Day 7 - Hangman Game 🎯  
+A Python version of the classic Hangman game. The player tries to guess the hidden word by entering letters. Wrong guesses reduce lives, and ASCII art shows the Hangman's progress.
+
+---
+
 Stay tuned for more daily projects! 🚀
