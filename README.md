@@ -51,6 +51,22 @@ Included 5 screenshots showing code and final output in Reeborg’s World
 ## Day 7 - Hangman Game 🎯  
 A Python version of the classic Hangman game. The player tries to guess the hidden word by entering letters. Wrong guesses reduce lives, and ASCII art shows the Hangman's progress.
 
+**Files Used:**
+- `main.py`: Core game logic  
+- `hangman_words.py`: Contains the word list  
+- `hangman_art.py`: Contains the hangman stages and game logo (ASCII art)
+
+---
+
+## Day 8 - Caesar Cipher 🔁🔐  
+A text encryption/decryption tool that shifts letters in the alphabet by a user-defined number.
+
+**Features:**  
+- Encode and decode messages  
+- Handles non-alphabet characters without changing them  
+- Supports repeated use until user exits  
+- Uses ASCII logo from external module `art.py`
+
 ---
 
 Stay tuned for more daily projects! 🚀
