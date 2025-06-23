@@ -83,4 +83,19 @@ A console-based secret bidding auction game.
 
 ---
 
+### **Day 10 - Calculator** 🧮  
+A command-line calculator that performs basic arithmetic operations and allows continuous calculations with previous results.
+
+**Features:**
+- Supports addition, subtraction, multiplication, and division  
+- Uses functions stored in a dictionary for operation selection  
+- Allows user to continue chaining calculations or start over  
+- Includes ASCII logo from `art.py`
+
+**Files Used:**
+- `main.py`: Calculator logic  
+- `art.py`: Contains the calculator logo
+
+---
+
 **Stay tuned for more daily projects!** 🚀
