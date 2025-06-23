@@ -98,4 +98,20 @@ A command-line calculator that performs basic arithmetic operations and allows c
 
 ---
 
+### **Day 11 - Blackjack Game** ♠️🃏  
+A simplified version of the Blackjack card game, played in the terminal against the computer.
+
+**Features:**
+- Simulates dealing cards from a standard Blackjack deck  
+- Follows game rules (Blackjack check, bust, dealer hits until 17, etc.)  
+- Compares player and dealer scores to determine the winner  
+- Clears screen and replays on user request  
+- Includes ASCII logo from `art.py`
+
+**Files Used:**
+- `main.py`: Game logic  
+- `art.py`: Contains the Blackjack logo
+
+---
+
 **Stay tuned for more daily projects!** 🚀
