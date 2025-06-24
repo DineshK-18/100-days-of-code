@@ -114,4 +114,21 @@ A simplified version of the Blackjack card game, played in the terminal against 
 
 ---
 
+### **Day 12 - Number Guessing Game** 🎯🔢  
+A terminal-based number guessing game where the player tries to guess a randomly generated number between 1 and 100.
+
+**Features:**
+- Difficulty selection (`easy` or `hard`) affecting number of attempts  
+- Random number generation using Python’s `random` module  
+- Feedback on whether the guess is too high or too low  
+- Displays number of attempts left after each guess  
+- Ends the game on a correct guess or when attempts run out  
+- Includes ASCII logo from `art.py`
+
+**Files Used:**
+- `main.py`: Game logic  
+- `art.py`: Contains the game logo
+
+---
+
 **Stay tuned for more daily projects!** 🚀
