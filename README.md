@@ -129,6 +129,31 @@ A terminal-based number guessing game where the player tries to guess a randomly
 - `main.py`: Game logic  
 - `art.py`: Contains the game logo
 
+
 ---
+
+### Day 13 - Debugging 🐞🔧  
+Today was all about learning how to find and fix bugs in Python code.  
+I explored different debugging strategies including:
+
+- Describing and understanding the problem
+- Reproducing bugs using test cases and print statements
+- Manually tracing logic ("playing computer")
+- Fixing syntax and logic errors like:
+  - Wrong `range` bounds
+  - Off-by-one indexing
+  - Assignment vs. comparison operators
+  - Indentation mistakes
+  - Misplaced append statements in loops
+
+Each example included the bugged code, an explanation, and the fixed version — all in one big debug session!  
+This helped sharpen my logic and attention to detail. 🔍
+
+✅ Files:  
+- `day13_debugging_examples.py` (contains all bugged + fixed cases with comments)
+
+---
+
+
 
 **Stay tuned for more daily projects!** 🚀
