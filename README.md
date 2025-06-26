@@ -129,7 +129,6 @@ A terminal-based number guessing game where the player tries to guess a randomly
 - `main.py`: Game logic  
 - `art.py`: Contains the game logo
 
-
 ---
 
 ### Day 13 - Debugging 🐞🔧  
@@ -154,6 +153,23 @@ This helped sharpen my logic and attention to detail. 🔍
 
 ---
 
+### **Day 14 - Higher Lower Game** 🔼🔽  
+A comparison-based game where the player guesses who has more followers between two famous people.
 
+**Features:**
+- Randomly selects two accounts from a dataset of celebrities  
+- Displays name, description, and country of each account  
+- User guesses which one has more followers  
+- Keeps score for every correct guess  
+- Replaces the losing account each round while continuing the game  
+- Ends the game when the user makes a wrong guess  
+- Includes ASCII logo and vs art from `art.py`
+
+**Files Used:**
+- `main.py`: Game logic  
+- `art.py`: Contains game logo and VS art  
+- `game_data.py`: Contains the celebrity data
+
+---
 
 **Stay tuned for more daily projects!** 🚀
