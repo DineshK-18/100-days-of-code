@@ -170,6 +170,25 @@ A comparison-based game where the player guesses who has more followers between 
 - `art.py`: Contains game logo and VS art  
 - `game_data.py`: Contains the celebrity data
 
+  ---
+
+### **Day 15 - Coffee Machine ☕💰**  
+A command-line coffee machine simulator that allows users to order espresso, latte, or cappuccino, simulating ingredient use and payment processing.
+
+**Features:**
+- Simulates a coffee machine with resources and drink menu  
+- Checks if ingredients are sufficient before proceeding  
+- Handles coin input (quarters, dimes, nickels, pennies)  
+- Calculates total inserted, gives change if needed  
+- Tracks total profit and updates remaining resources  
+- Special commands:
+  - `report`: Shows current resources and profit  
+  - `off`: Shuts down the machine  
+
+**Files Used:**
+- `main.py`: Coffee machine logic and drink menu
+
+
 ---
 
 **Stay tuned for more daily projects!** 🚀
