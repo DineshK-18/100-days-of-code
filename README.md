@@ -3,6 +3,9 @@ This repository contains small Python projects I build each day as part of the 1
 
 ---
 
+> 🧑‍💻 **Note:** Days 1 to 15 cover beginner-level Python projects — focused on basics, logic building, and foundational programming skills.
+
+---
 ### **Day 1 - Band Name Generator** 🎸  
 A fun little program that asks for the user's city and favorite pet, then combines them to suggest a creative band name.
 
