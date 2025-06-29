@@ -3,6 +3,9 @@ This repository contains small Python projects I build each day as part of the 1
 
 ---
 
+> 🧑‍💻 **Note:** Days 1 to 15 cover beginner-level Python projects — focused on basics, logic building, and foundational programming skills.
+
+---
 ### **Day 1 - Band Name Generator** 🎸  
 A fun little program that asks for the user's city and favorite pet, then combines them to suggest a creative band name.
 
@@ -170,6 +173,33 @@ A comparison-based game where the player guesses who has more followers between 
 - `art.py`: Contains game logo and VS art  
 - `game_data.py`: Contains the celebrity data
 
+  ---
+
+### **Day 15 - Coffee Machine ☕💰**  
+A command-line coffee machine simulator that allows users to order espresso, latte, or cappuccino, simulating ingredient use and payment processing.
+
+**Features:**
+- Simulates a coffee machine with resources and drink menu  
+- Checks if ingredients are sufficient before proceeding  
+- Handles coin input (quarters, dimes, nickels, pennies)  
+- Calculates total inserted, gives change if needed  
+- Tracks total profit and updates remaining resources  
+- Special commands:
+  - `report`: Shows current resources and profit  
+  - `off`: Shuts down the machine  
+
+**Files Used:**
+- `main.py`: Coffee machine logic and drink menu
+
+
 ---
+
+
+
+> 🚀 **From Day 16 onward, the projects will move into the intermediate level.**  
+> These upcoming projects will involve more complex logic, data structures, and real-world problem-solving skills. Stay tuned!
+
+---
+
 
 **Stay tuned for more daily projects!** 🚀
