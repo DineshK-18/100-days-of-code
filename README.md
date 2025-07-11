@@ -197,7 +197,7 @@ A command-line coffee machine simulator that allows users to order espresso, lat
 
 
 > 🚀 **From Day 16 onward, the projects will move into the intermediate level.**  
-> These upcoming projects will involve more complex logic, data structures, and real-world problem-solving skills. Stay tuned!
+> These upcoming projects will involve more complex logic, data structures, and real-world problem-solving skills. Stay tuned!!
 
 ---
 
