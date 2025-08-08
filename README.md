@@ -201,8 +201,6 @@ A command-line coffee machine simulator that allows users to order espresso, lat
 
 ---
 
----
-
 ### **Day 16 - OOP Coffee Machine (Revisited)** ☕🔁  
 A refactored version of the Day 15 coffee machine project using **Object-Oriented Programming (OOP)** principles.
 
