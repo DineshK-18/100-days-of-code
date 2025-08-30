@@ -1,32 +1,29 @@
-import time
-import random
+class CoffeeMaker:
+    """Models the machine that makes the coffee"""
+    def __init__(self):
+        self.resources = {
+            "water": 300,
+            "milk": 200,
+            "coffee": 100,
+        }
 
-def energize():
-    actions = [
-        "Splash cold water on your face 💦",
-        "Do 20 jumping jacks 🏃‍♂️",
-        "Blast your favorite hype song 🎶",
-        "Eat a brain-boosting snack 🍫",
-        "Turn on bright lights 💡",
-        "Shout 'I AM UNSTOPPABLE!' 😤"
-    ]
-    print("⚔️ Sleep Slayer Activated ⚔️")
-    for i in range(3):
-        print(f"> {random.choice(actions)}")
-        time.sleep(2)
+    def report(self):
+        """Prints a report of all resources."""
+        print(f"Water: {self.resources['water']}ml")
+        print(f"Milk: {self.resources['milk']}ml")
+        print(f"Coffee: {self.resources['coffee']}g")
 
-def study_session():
-    print("\n📚 Study Mode: ON 📚")
-    for i in range(4):
-        print(f"🔸 Focus for 25 minutes - Round {i+1}")
-        time.sleep(1)
-        print("🔹 Take a 5-minute break")
-        time.sleep(1)
+    def is_resource_sufficient(self, drink):
+        """Returns True when order can be made, False if ingredients are insufficient."""
+        can_make = True
+        for item in drink.ingredients:
+            if drink.ingredients[item] > self.resources[item]:
+                print(f"Sorry there is not enough {item}.")
+                can_make = False
+        return can_make
 
-def victory():
-    print("\n🎉 Mission Accomplished, Dinesh! You defeated Sleep and conquered your studies! 🎉")
-
-# Run the code
-energize()
-study_session()
-victory()
+    def make_coffee(self, order):
+        """Deducts the required ingredients from the resources."""
+        for item in order.ingredients:
+            self.resources[item] -= order.ingredients[item]
+        print(f"Here is your {order.name} ☕️. Enjoy!")
