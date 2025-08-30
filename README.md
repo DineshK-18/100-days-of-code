@@ -201,5 +201,26 @@ A command-line coffee machine simulator that allows users to order espresso, lat
 
 ---
 
+### **Day 16 - OOP Coffee Machine (Revisited)** ☕🔁  
+A refactored version of the Day 15 coffee machine project using **Object-Oriented Programming (OOP)** principles.
+
+**Features:**
+- Uses classes: `CoffeeMaker`, `MoneyMachine`, `Menu`, and `MenuItem`  
+- Separates concerns: resource management, payment processing, menu operations  
+- Accepts user input to select drinks  
+- Checks resources before making drinks  
+- Handles money collection and returns change  
+- Special commands:
+  - `report`: Shows current resource levels and money collected  
+  - `off`: Turns off the machine
+
+**Files Used:**
+- `main.py`: Program logic and interactions  
+- `coffee_maker.py`: Manages resources and drink making  
+- `money_machine.py`: Handles money processing  
+- `menu.py`: Manages menu and available drinks  
+
+---
+
 
 **Stay tuned for more daily projects!** 🚀
