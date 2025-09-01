@@ -191,10 +191,7 @@ A command-line coffee machine simulator that allows users to order espresso, lat
 **Files Used:**
 - `main.py`: Coffee machine logic and drink menu
 
-
 ---
-
-
 
 > 🚀 **From Day 16 onward, the projects will move into the intermediate level.**  
 > These upcoming projects will involve more complex logic, data structures, and real-world problem-solving skills. Stay tuned!!!
@@ -222,5 +219,40 @@ A refactored version of the Day 15 coffee machine project using **Object-Oriente
 
 ---
 
+### **Day 17 - Quiz Game (OOP)** ❓🎮  
+A Python quiz game built using Object-Oriented Programming principles.
+
+**Features:**
+- Uses classes: `Question` and `QuizBrain`  
+- Loads a bank of true/false questions from `question_model.py` and `data.py`  
+- Asks each question sequentially and checks the user’s answer  
+- Tracks the score and progress  
+- Ends when all questions are answered and displays the final score  
+
+**Files Used:**
+- `main.py`: Runs the game  
+- `question_model.py`: Defines the `Question` class  
+- `data.py`: Contains the question data  
+- `quiz_brain.py`: Handles game logic (asking questions, checking answers, keeping score)
+
+---
+
+### **Day 18 - Turtle Graphics & Hirst Painting** 🎨🐢  
+Exploring Python’s `turtle` graphics library with fun drawing projects.
+
+**What I Did:**
+- Practiced drawing shapes, random walk patterns, and spirographs using `turtle`  
+- Created a **Hirst-style dot painting** by extracting colors from an image using the `colorgram` library  
+
+**Features:**
+- Generates a 10x10 grid of colorful dots (Hirst Painting)  
+- Uses random colors extracted from an image  
+- Demonstrates loops, randomization, and `turtle` graphics  
+
+**Files Used:**
+- `main.py`: Contains turtle drawing logic  
+- `colorgram.py`: Used to extract RGB colors from an image  
+
+---
 
 **Stay tuned for more daily projects!** 🚀
