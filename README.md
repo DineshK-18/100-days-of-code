@@ -6,6 +6,7 @@ This repository contains small Python projects I build each day as part of the 1
 > 🧑‍💻 **Note:** Days 1 to 15 cover beginner-level Python projects — focused on basics, logic building, and foundational programming skills.
 
 ---
+
 ### **Day 1 - Band Name Generator** 🎸  
 A fun little program that asks for the user's city and favorite pet, then combines them to suggest a creative band name.
 
@@ -134,13 +135,13 @@ A terminal-based number guessing game where the player tries to guess a randomly
 
 ---
 
-### Day 13 - Debugging 🐞🔧  
+### **Day 13 - Debugging** 🐞🔧  
 Today was all about learning how to find and fix bugs in Python code.  
 I explored different debugging strategies including:
 
-- Describing and understanding the problem
-- Reproducing bugs using test cases and print statements
-- Manually tracing logic ("playing computer")
+- Describing and understanding the problem  
+- Reproducing bugs using test cases and print statements  
+- Manually tracing logic ("playing computer")  
 - Fixing syntax and logic errors like:
   - Wrong `range` bounds
   - Off-by-one indexing
@@ -173,9 +174,9 @@ A comparison-based game where the player guesses who has more followers between 
 - `art.py`: Contains game logo and VS art  
 - `game_data.py`: Contains the celebrity data
 
-  ---
+---
 
-### **Day 15 - Coffee Machine ☕💰**  
+### **Day 15 - Coffee Machine** ☕💰  
 A command-line coffee machine simulator that allows users to order espresso, latte, or cappuccino, simulating ingredient use and payment processing.
 
 **Features:**
@@ -193,8 +194,7 @@ A command-line coffee machine simulator that allows users to order espresso, lat
 
 ---
 
-> 🚀 **From Day 16 onward, the projects will move into the intermediate level.**  
-> These upcoming projects will involve more complex logic, data structures, and real-world problem-solving skills. Stay tuned!!!
+> 🚀 **From Day 16 onward, the projects move into intermediate level** — involving OOP, more complex logic, and real-world problem-solving skills like Turtle graphics, Quiz games, and Snake Game.
 
 ---
 
@@ -255,4 +255,38 @@ Exploring Python’s `turtle` graphics library with fun drawing projects.
 
 ---
 
-**Stay tuned for more daily projects!** 🚀
+### **Day 19 - Turtle Race Game** 🐢🏁  
+A fun game built with Python’s `turtle` library where players bet on which colored turtle will win a race.
+
+**Features:**
+- Creates multiple turtles with different colors  
+- User places a bet on a turtle by choosing a color  
+- Turtles race across the screen with random movement steps  
+- Declares the winner and compares with user’s bet  
+
+**Files Used:**
+- `main.py`: Turtle race logic
+
+---
+
+### **Day 20 & 21 - Snake Game** 🐍🎮  
+The classic Snake Game built using Python’s `turtle` graphics, implemented step by step.
+
+**Features:**
+- Creates a snake body using multiple square segments  
+- Implements snake movement and continuous motion  
+- Snake grows longer when it eats food  
+- Randomly generated food items using `food.py`  
+- Score tracking and display using `scoreboard.py`  
+- Game over when snake collides with wall or itself  
+- Uses OOP (`Snake`, `Food`, `Scoreboard` classes) for structure  
+
+**Files Used:**
+- `main.py`: Runs the game loop  
+- `snake.py`: Snake logic and movement  
+- `food.py`: Food generation  
+- `scoreboard.py`: Score tracking and display  
+
+---
+
+⚡ By Day 21, the Snake Game is fully functional with movement, growth, food, scoring, and game-over conditions!
