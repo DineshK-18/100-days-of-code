@@ -292,7 +292,8 @@ The classic Snake Game built using Python’s `turtle` graphics, implemented ste
 ⚡ By Day 21, the Snake Game is fully functional with movement, growth, food, scoring, and game-over conditions!
 
 ---
-**Day 22 - Pong Game** 🏓
+
+### **Day 22 - Pong Game** 🏓
 
 A classic Pong game built using Python’s turtle module. The player controls a paddle to bounce the ball against the opponent and keep the rally going.
 
@@ -309,7 +310,9 @@ A classic Pong game built using Python’s turtle module. The player controls a 
 - `ball.py`: Ball movement and collision detection
   `scoreboard.py`: Score display
 
-**Day 23 - Turtle Crossing Game** 🐢🚦
+---
+
+### **Day 23 - Turtle Crossing Game** 🐢🚦
 
 A lane-crossing game where the player guides a turtle across a busy road using Python’s turtle module. The goal is to reach the finish line while avoiding moving cars, with increasing difficulty each level.
 
