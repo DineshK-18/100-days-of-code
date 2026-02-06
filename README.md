@@ -290,3 +290,69 @@ The classic Snake Game built using Python’s `turtle` graphics, implemented ste
 ---
 
 ⚡ By Day 21, the Snake Game is fully functional with movement, growth, food, scoring, and game-over conditions!
+
+---
+
+### **Day 22 - Pong Game** 🏓
+
+A classic Pong game built using Python’s turtle module. The player controls a paddle to bounce the ball against the opponent and keep the rally going.
+
+**Features:**
+- Ball moves continuously and bounces off walls and paddles
+- Player controls left paddle using keyboard inputs (Up and Down)
+- Opponent paddle moves automatically
+- Score is tracked for both player and computer
+- Uses OOP with Paddle and Ball classes
+
+**Files Used:**
+- `main.py`: Runs the game loop and handles game logic
+- `paddle.py`: Paddle movement logic
+- `ball.py`: Ball movement and collision detection
+  `scoreboard.py`: Score display
+
+---
+
+### **Day 23 - Turtle Crossing Game** 🐢🚦
+
+A lane-crossing game where the player guides a turtle across a busy road using Python’s turtle module. The goal is to reach the finish line while avoiding moving cars, with increasing difficulty each level.
+
+**Features:**
+- Player moves turtle forward using the Up arrow key
+- Cars are generated randomly and move across the screen
+- Collision detection ends the game when the turtle hits a car
+- Levels increase speed and difficulty as the turtle crosses successfully
+- Tracks score based on levels completed
+- Uses OOP with Player, CarManager, and Scoreboard classes
+
+**Files Used:**
+- `main.py`: Runs the game loop and handles game logic
+- `player.py`: Controls player turtle movement and start/finish line logic
+- `car_manager.py`: Manages car creation, movement, and speed increase per level
+- `scoreboard.py`: Tracks and displays current level, and shows game over
+
+---
+
+### **Day 24 – Mail Merge Project** 📄✉️
+
+A simple automation project that generates personalized letters using Python file handling.
+
+**Features:**
+- Reads a template letter from a text file
+- Reads multiple names from a separate file
+- Replaces the placeholder [name] with each actual name
+- Automatically generates and saves personalized letters for every recipient
+- Stores the output letters in a dedicated ReadyToSend folder
+
+**Concepts Used:**
+- File handling (open, read, write)
+- String manipulation (replace, strip)
+- Loops
+- Directory structure management
+
+**Files Used:**
+- `main.py`: Core mail merge logic
+- Input/Letters/starting_letter.txt: Template letter
+- Input/Names/invited_names.txt: List of recipient names
+- Output/ReadyToSend/: Generated personalized letters
+
+---
