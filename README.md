@@ -332,3 +332,27 @@ A lane-crossing game where the player guides a turtle across a busy road using P
 
 ---
 
+### **Day 24 – Mail Merge Project** 📄✉️
+
+A simple automation project that generates personalized letters using Python file handling.
+
+**Features:**
+- Reads a template letter from a text file
+- Reads multiple names from a separate file
+- Replaces the placeholder [name] with each actual name
+- Automatically generates and saves personalized letters for every recipient
+- Stores the output letters in a dedicated ReadyToSend folder
+
+**Concepts Used:**
+- File handling (open, read, write)
+- String manipulation (replace, strip)
+- Loops
+- Directory structure management
+
+**Files Used:**
+- `main.py`: Core mail merge logic
+- Input/Letters/starting_letter.txt: Template letter
+- Input/Names/invited_names.txt: List of recipient names
+- Output/ReadyToSend/: Generated personalized letters
+
+---
