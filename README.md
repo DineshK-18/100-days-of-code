@@ -377,4 +377,27 @@ An interactive geography game built using Python’s turtle module and pandas fo
 
 ---
 
+### Day 26 – NATO Phonetic Alphabet Project 🛩️📡
 
+A Python program that converts user-input text into its corresponding NATO phonetic alphabet code words using pandas and dictionary comprehension. The program reads data from a CSV file and dynamically generates the phonetic translation.
+
+**Features:**
+- Reads NATO alphabet data from a CSV file using pandas
+- Uses dictionary comprehension to map letters to phonetic codes
+- Accepts user input and converts it to uppercase
+- Uses list comprehension to generate corresponding code words
+- Outputs the translated NATO phonetic sequence as a list
+- Demonstrates iteration over a Pandas DataFrame using .iterrows()
+
+**Concepts Used:**
+- List comprehension
+- Dictionary comprehension
+- Iterating over DataFrames
+- Data mapping (key-value relationships)
+- File handling with CSV
+
+**Files Used:**
+- `main.py` – Program logic and user interaction
+- `nato_phonetic_alphabet.csv` – Dataset containing letters and their NATO codes
+
+---
