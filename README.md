@@ -356,3 +356,25 @@ A simple automation project that generates personalized letters using Python fil
 - Output/ReadyToSend/: Generated personalized letters
 
 ---
+
+### **Day 25 – U.S. States Game (Pandas + Turtle Graphics) **🗺️🐢
+
+An interactive geography game built using Python’s turtle module and pandas for data handling. The player guesses U.S. state names, and correct answers are displayed on a blank U.S. map.
+
+**Features:**
+- Displays a blank U.S. map using a .gif image
+- Accepts user input through a pop-up text box
+- Validates state names using data from a CSV file
+- Writes correct state names at their respective coordinates on the map
+- Tracks the number of correctly guessed states
+- Generates a `states_to_learn.csv` file containing all unguessed states when the user exits
+
+**Files Used:**
+- `main.py` – Core game logic and turtle interaction
+- `50_states.csv` – Dataset containing U.S. state names with their (x, y) coordinates
+- `blank_states_img.gif` – Background image of the blank U.S. map
+- `states_to_learn.csv` – Auto-generated file listing unguessed states when the user exits
+
+---
+
+
