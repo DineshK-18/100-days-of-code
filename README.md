@@ -357,7 +357,7 @@ A simple automation project that generates personalized letters using Python fil
 
 ---
 
-### **Day 25 – U.S. States Game (Pandas + Turtle Graphics)**🗺️🐢
+### Day 25 – U.S. States Game (Pandas + Turtle Graphics)🗺️🐢
 
 An interactive geography game built using Python’s turtle module and pandas for data handling. The player guesses U.S. state names, and correct answers are displayed on a blank U.S. map.
 
