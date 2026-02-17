@@ -1,45 +1,37 @@
+import turtle
 import pandas as pd
 
-
-# data_dict = data.to_dict()
-# print(data_dict)
-#
-# max_temp = data['temp'].max()
-#
-# print(data[data.temp == data.temp.max()])
-
-# °F = (°C × 1.8) + 32
-
-# new_data = data[data.day == "Monday"]
-# val = new_data.temp
-# print((val*1.8) + 32)
-#
-
-#
-# data = pd.DataFrame(data_dict)
-# print(data)
-#
-# data.to_csv("new_data.csv")
+screen = turtle.Screen()
+screen.title("U.S. States Game")
+image = "blank_states_img.gif"
+screen.addshape(image)
+turtle.shape(image)
+data = pd.read_csv('50_states.csv')
+states = data.state.to_list()
+guessed_states = []
 
 
-#
-# grey_squirrel = len(data[data["Primary Fur Color"] == "Gray"])
-# Cinnamon_squirrel = len(data[data["Primary Fur Color"] == "Cinnamon"])
-# Black_squirrel = len(data[data["Primary Fur Color"] == "Black"])
-#
-# data_dict = {
-#     "Fur Color": ["Gray", "Cinnamon", "Black"],
-#     "Count": [grey_squirrel, Cinnamon_squirrel, Black_squirrel]
-# }
-#
-# df = pd.DataFrame(data_dict)
-# df.to_csv("squirrel_fur_color.csv")
+while len(guessed_states) < 50:
+    answer_text = screen.textinput(title=f"{len(guessed_states)}/50 States Correct",
+                                   prompt="What's another state's name?").title()
+    if answer_text == 'Exit':
+        missing_states = []
+        for state in states:
+            if state not in guessed_states:
+                missing_states.append(state)
+        new_data = pd.DataFrame(missing_states)
+        new_data.to_csv("states_to_learn.csv")
+        break
+    if answer_text in states and answer_text not in guessed_states:
+        guessed_states.append(answer_text)
+        t = turtle.Turtle()
+        t.hideturtle()
+        t.penup()
+        state_data = data[data.state == answer_text]
+        t.goto(state_data.x.item(), state_data.y.item())
+        t.write(answer_text)
 
-# data = pd.read_csv("weather_data.csv")
-# print(data[data.temp == data.temp.max()])
 
-
-
-
+turtle.mainloop()
 
 
